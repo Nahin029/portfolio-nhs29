@@ -1,0 +1,548 @@
+/* extra small device */
+
+@media (min-width: 320px) and (max-width: 575px){
+/* =============================================
+                navbar part start
+================================================*/
+.navbar-light .navbar-toggler {
+    color: rgb(0 0 0 / 0%);
+    border-color: rgb(0 0 0 / 0%);
+}
+.nav-link {
+    display: block;
+    padding: 0.5rem 0rem;
+    color: #0d6efd;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    margin-left: 0px;
+    text-align: right;
+}
+
+
+/* =============================================
+                navbar part end
+================================================*/
+/* =============================================
+                banner part start
+================================================*/
+#bannar-part .banner {
+    width: 100%;
+    position: relative;
+    padding: 473px 0;
+}
+#bannar-part .banner .banner-in {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    top: 10%;
+    left: 0;
+    border-radius: 15px;
+    position: absolute;
+    box-shadow: 0 20px 80px 0 rgb(153 153 153 / 30%);
+    padding: 30px;
+}
+
+/* =============================================
+                banner part start
+================================================*/
+/* ---==========================================
+                    Searvice part start
+=======================================----- */
+#service-part ul li:nth-child(odd) .item {
+    left: 0px;
+}
+#service-part ul li .item {
+    position: relative;
+    top: 7px;
+    width: 167px;
+    padding: 30px;
+}
+#service-part ul li:nth-child(even) .item {
+    left: calc(-167px - 0px);
+}
+
+
+
+/* ---==========================================
+                    Searvice part end
+=======================================----- */
+
+/* ---==========================================
+                    Portfolio part start
+=======================================----- */
+
+#protfolio-part .portfolios .port-item .itembox {
+    position: relative;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+
+/* ---==========================================
+                    Portfolio part end
+=======================================----- */
+
+/* ---==========================================
+                    Contact part start
+=======================================----- */
+#contact-part .contact {
+    margin-left: 0px;
+    padding: 25px 0;
+}
+/* ---==========================================
+                    Contact part end
+=======================================----- */
+
+/* ---==========================================
+                    Footer part start
+=======================================----- */
+footer{
+    padding-bottom: 50px;
+}
+
+footer .footer-item {
+    padding: 0px 0px;
+    padding-top: 50px;
+}
+/* ---==========================================
+                    Footer part end
+=======================================----- */
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+/* =============================================
+                navbar part start
+================================================*/
+.navbar-light .navbar-toggler {
+    color: rgb(0 0 0 / 0%);
+    border-color: rgb(0 0 0 / 0%);
+}
+.nav-link {
+    display: block;
+    padding: 0.5rem 0rem;
+    color: #0d6efd;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    margin-left: 0px;
+    text-align: right;
+}
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 22px;
+    font-family: 'Jost', sans-serif;
+}
+
+/* =============================================
+                navbar part end
+================================================*/
+/* =============================================
+                banner part start
+================================================*/
+#bannar-part .banner {
+    width: 100%;
+    position: relative;
+    padding: 525px 0;
+}
+/* =============================================
+                banner part end
+================================================*/
+/* =============================================
+                About part start
+================================================*/
+#about-part .text h4 {
+    color: #222;
+    font-family: 'Jost', sans-serif;
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+#about-part .text p {
+    max-width: 516px;
+    font-family: 'Jost', sans-serif;
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+#about-part .skills .skill .skill-item h4 {
+    font-size: 20px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    color: #222;
+    margin-bottom: 15px;
+    text-align: right;
+}
+
+
+
+/* =============================================
+                About part end
+================================================*/
+/* ---==========================================
+                    Searvice part start
+=======================================----- */
+#service-part ul li:nth-child(odd) .item {
+    left: 15px;
+}
+#service-part ul li .item {
+    position: relative;
+    top: 7px;
+    width: 260px;
+    padding: 30px;
+}
+#service-part ul li:nth-child(even) .item {
+    left: calc(-260px - 13px);
+}
+
+
+/* ---==========================================
+                    Searvice part end
+=======================================----- */
+/* ---==========================================
+                    Portfolio part start
+=======================================----- */
+#protfolio-part .port-text p {
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+#protfolio-part .port-text h4 {
+    font-family: 'Jost', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#protfolio-part .port-text h4 {
+    font-family: 'Jost', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#protfolio-part .portfolios .port-item .itembox {
+    position: relative;
+    margin: 10px;
+    width: 500px;
+    height: 430px;
+    float: left;
+}
+
+/* ---==========================================
+                    Portfolio part end
+=======================================----- */
+/* ---==========================================
+                    Contact part start
+=======================================----- */
+
+#contact-part .contact {
+    margin-left: 0px;
+    padding: 25px 0;
+}
+/* ---==========================================
+                    Contact part start
+=======================================----- */
+/* ---==========================================
+                    Footer part start
+=======================================----- */
+footer{
+    padding-bottom: 50px;
+}
+
+footer .footer-item {
+    padding: 0px 0px;
+    padding-top: 50px;
+}
+footer .footer-item .footer-text p {
+    font-family: 'Jost', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    max-width: 500px;
+}
+footer .footer-item .footer-text p {
+    font-family: 'Jost', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    max-width: 500px;
+}
+footer .footer-item .footer-text h4 {
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 30px;
+}
+/* ---==========================================
+                    Footer part end
+=======================================----- */
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+/* =============================================
+                navbar part start
+================================================*/
+.navbar-light .navbar-toggler {
+    color: rgb(0 0 0 / 0%);
+    border-color: rgb(0 0 0 / 0%);
+}
+.nav-link {
+    display: block;
+    padding: 0.5rem 0rem;
+    color: #0d6efd;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    margin-left: 0px;
+    text-align: right;
+}
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 22px;
+    font-family: 'Jost', sans-serif;
+}
+
+/* =============================================
+                navbar part end
+================================================*/
+/* =============================================
+                banner part start
+================================================*/
+#bannar-part{
+    margin-bottom: 320px;
+}
+#bannar-part .banner {
+    width: 100%;
+    position: relative;
+    padding: 645px 0;
+}
+#bannar-part .banner .banner-in .text h6 {
+    font-size: 18px;
+    font-family: 'Jost', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2.1px;
+    font-weight: normal;
+    margin-bottom: 12px;
+    color: #222;
+}
+#bannar-part .banner .banner-in .text h4 {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Jost', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #222;
+}
+#bannar-part .banner .banner-in .basic li p {
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 22px;
+}
+/* =============================================
+                banner part end
+================================================*/
+/* =============================================
+                About part start
+================================================*/
+#about-part .text h4 {
+    color: #222;
+    font-family: 'Jost', sans-serif;
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+#about-part .text p {
+    max-width: 680px;
+    font-family: 'Jost', sans-serif;
+    margin-bottom: 40px;
+    font-size: 27px;
+}
+#about-part .skills .skill .skill-item h4 {
+    font-size: 25px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    color: #222;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+
+
+/* =============================================
+                About part end
+================================================*/
+
+/* ---==========================================
+                    Searvice part start
+=======================================----- */
+#service-part ul li:nth-child(odd) .item {
+    left: 15px;
+}
+#service-part ul li:nth-child(even) .item {
+    left: calc(-360px - 15px);
+}
+#service-part .service-text p {
+    font-size: 20px;
+    font-family: 'Jost', sans-serif;
+    color: #fff;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* ---==========================================
+                    Searvice part End
+=======================================----- */
+/* ---==========================================
+                    Protfolio part start
+=======================================----- */
+#protfolio-part .portfolios .port-item .itembox {
+    position: relative;
+    margin: 10px;
+    width: 325px;
+    height: 325px;
+    float: left;
+}
+#protfolio-part .portfolios ul li {
+    cursor: pointer;
+    margin: 10px;
+    letter-spacing: 1px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+#protfolio-part .port-text p {
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+#protfolio-part .port-text h4 {
+    font-family: 'Jost', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#contact-part .contact {
+    margin-left: 0px;
+    padding: 45px 0 0 0;
+}
+#contact-part .contact ul li {
+    font-family: 'Jost', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 10px 0;
+    color: #fff;
+}
+/* ---==========================================
+                    Protfolio part end
+=======================================----- */
+/* ---==========================================
+                    Footer part Start
+=======================================----- */
+footer{
+    padding-bottom: 50px;
+}
+
+footer .footer-item {
+    padding: 0px 0px;
+    padding-top: 50px;
+}
+footer .footer-item .footer-text p {
+    font-family: 'Jost', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+    max-width: 675px;
+}
+footer .footer-item .footer-text h4 {
+    font-family: 'Jost', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 30px;
+}
+footer .footer-item .footer-text ul li a {
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    transition: .4s;
+}
+/* ---==========================================
+                    Footer part end
+=======================================----- */
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+/* =============================================
+                banner part start
+================================================*/
+    #bannar-part .banner .banner-in .text {
+        padding: 12px 0;
+        margin-left: 25px;
+    }
+    #bannar-part .banner .banner-in .pic img {
+        width: 100%;
+    }
+    #bannar-part .banner {
+        width: 100%;
+        position: relative;
+        padding: 280px 0;
+    }
+    #bannar-part .banner .banner-in .text {
+        padding: 33px 0;
+        margin-left: 25px;
+    }
+    #bannar-part{
+        margin-bottom: 250px;
+    }
+
+/* =============================================
+                banner part end
+================================================*/
+
+/* =============================================
+                About part Start
+================================================*/
+#about-part .text p {
+    max-width: 516px;
+    font-family: 'Jost', sans-serif;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+/* =============================================
+                About part end
+================================================*/
+/* =============================================
+                Portfolio part Start
+================================================*/
+#protfolio-part .portfolios .port-item .itembox {
+    position: relative;
+    margin: 10px;
+    width: 445px;
+    height: 445px;
+    float: left;
+}
+#protfolio-part .portfolios ul li {
+    cursor: pointer;
+    margin: 10px;
+    letter-spacing: 1px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+/* =============================================
+                Portfolio part end
+================================================*/
+
+
+}

@@ -1,0 +1,545 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+.clr{
+    clear: both;
+}
+
+/* ---==========================================
+                    navber part start
+=======================================----- */
+#navber-part{
+    background-image: -webkit-linear-gradient(0deg,#766dff 0%,#88f3ff 100%);
+}
+.navbar-brand {
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.navbar-light .navbar-brand {
+    color: rgb(255 255 255 / 90%);
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: rgb(255 255 255);
+}
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 14px;
+    font-family: 'Jost', sans-serif;
+}
+.nav-link {
+    display: block;
+    padding: 2.5rem 1rem;
+    color: #0d6efd;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    margin-left: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(255 255 255);
+}
+.sticky{
+    position: fixed;
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid #d6d6d6;
+    top: 0;
+    z-index: 99999999;
+}
+
+/* ---==========================================
+                    navber part start
+=======================================----- */
+/* ---==========================================
+                    Bannar part start
+=======================================----- */
+#bannar-part{
+    background-image: -webkit-linear-gradient(0deg,#766dff 0%,#88f3ff 100%);
+    margin-bottom: 250px;
+}
+#bannar-part .banner {
+    width: 100%;
+    position: relative;
+    padding: 347px 0;
+}
+#bannar-part .banner .banner-in{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    top: 20%;
+    left: 0;
+    border-radius: 15px;
+    position: absolute;
+    box-shadow: 0 20px 80px 0 rgb(153 153 153 / 30%);
+    padding: 30px;
+}
+#bannar-part .banner .banner-in .pic img{
+    width: 90%;
+}
+#bannar-part .banner .banner-in .text {
+    padding: 96px 0;
+    margin-left: 25px;
+}
+#bannar-part .banner .banner-in .text h6{
+    font-size: 14px;
+    font-family: 'Jost', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2.1px;
+    font-weight: normal;
+    margin-bottom: 12px;
+    color: #222;
+}
+#bannar-part .banner .banner-in .text h3{
+    font-family: 'Jost', sans-serif;
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #222;
+}
+#bannar-part .banner .banner-in .text h4{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Jost', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #222;
+}
+#bannar-part .banner .banner-in .text p{
+    font-family: 'Jost', sans-serif;
+    max-width: 540px;
+    color: #777;
+    margin-bottom: 40px;
+}
+ol, ul {
+    padding-left: 0rem;
+}
+#bannar-part .banner .banner-in .basic li{
+    margin-bottom: -20px;
+}
+#bannar-part .banner .banner-in .basic li a{
+    font-size: 16px;
+    color: #777;
+}
+#bannar-part .banner .banner-in .basic li p{
+    display: inline-block;
+    padding-left: 20px;
+}
+#bannar-part .banner .banner-in .basic li i{
+    color: #7198E8;
+}
+#bannar-part .banner .banner-in .text .social li{
+    line-height: 40px;
+    width: 40px;
+    background: #e8e8e8;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    margin: 0 5px;
+}
+#bannar-part .banner .banner-in .text .social li a{
+    color: #fff;
+    
+}
+#bannar-part .banner .banner-in .text .social li:hover{
+    background: -webkit-linear-gradient(0deg,#766dff 0%,#88f3ff 100%);
+}
+/* ---==========================================
+                    Bannar part end
+=======================================----- */
+
+/* ---==========================================
+                    About part Start
+=======================================----- */
+#about-part{
+    margin-bottom: 100px;
+}
+#about-part .text h4{
+    color: #222;
+    font-family: 'Jost', sans-serif;
+    font-size: 36px;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+}
+#about-part .text p{
+    max-width: 516px;
+    font-family: 'Jost', sans-serif;
+    margin-bottom: 40px;
+}
+
+#about-part .skills .skill .skill-item h4{
+    font-size: 14px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    color: #222;
+    margin-bottom: 15px;
+    text-align: right;
+}
+#about-part .skills .skill .skill-item .progress{
+    border: 1px solid #eee;
+    padding: 4px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+#about-part .skills .skill .skill-item .progress .progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: -webkit-linear-gradient(0deg,#766dff 0%,#88f3ff 100%);
+    transition: width .6s ease;
+    background-image: -webkit-linear-gradient(0deg,#766dff 0%,#88f3ff 100%);
+}
+/* ---==========================================
+                    About part end
+=======================================----- */
+/* ---==========================================
+                    Searvice part start
+=======================================----- */
+#service-part {
+    background-image: -webkit-linear-gradient(0deg,#766dff 0%,#88f3ff 100%);
+    margin-bottom: 100px;
+}
+#service-part .service-text{
+    padding-top: 100px;
+}
+#service-part .service-text p{
+    font-size: 14px;
+    font-family: 'Jost', sans-serif;
+    color: #fff;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#service-part .service-text h3 {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Jost', sans-serif;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#service-part ul li:nth-child(odd) .item {
+    left: 50px;
+}
+#service-part ul li {
+    background: #f9f9ff;
+    position: relative;
+    margin: 0 auto;
+    width: 2px;
+    padding-bottom: 40px;
+    list-style-type: none;
+}
+#service-part ul li .item {
+    /* background-color: white !important;
+    box-shadow: 0px 10px 27px 3px rgb(204 204 204 / 20%); */
+    position: relative;
+    top: 7px;
+    width: 360px;
+    padding: 30px;
+}
+#service-part ul li:before {
+    content: '';
+    background: #8490ff;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    width: 20px;
+    height: 20px;
+    border: 5px solid #eee;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+#service-part ul li:nth-child(even) .item {
+    left: calc(-360px - 45px);
+}
+#service-part .item {
+    text-align: center;
+    color: #fff;
+}
+#service-part .item i{
+    font-size: 35px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+#service-part .item h4{
+    font-family: 'Jost', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+#service-part .item p{
+    font-family: 'Jost', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+#service-part .item:hover i{
+    color:#88efff ;
+}
+#service-part .item:hover h4{
+    color:#88efff ;
+}
+#service-part .all-item{
+    padding-bottom: 100px ;
+}
+/* ---==========================================
+                    Searvice part end
+=======================================----- */
+
+/* ---==========================================
+                    Portfolio part start
+=======================================----- */
+#protfolio-part{
+    margin-bottom: 100px;
+}
+
+#protfolio-part .port-text{
+    text-align: center;
+}
+#protfolio-part .port-text p{
+    font-family: 'Jost', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+#protfolio-part .port-text h4{
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#protfolio-part .portfolios ul{
+
+    margin-bottom: 10px;
+    text-align: center;
+    
+    
+}
+#protfolio-part .portfolios ul li{
+    display: inline-block;
+}
+
+#protfolio-part .portfolios ul li{
+    cursor: pointer;
+    margin: 10px;
+    letter-spacing: 1px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+#protfolio-part .portfolios ul li.active{
+    color:#8490ff ;
+}
+#protfolio-part .portfolios ul li:hover{
+    color: #8490ff;
+}
+#protfolio-part .portfolios .port-item {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#protfolio-part .portfolios .port-item .itembox{
+    position: relative;
+    margin: 10px;
+    width: 400px;
+    height: 400px;
+    float: left;
+    
+}
+#protfolio-part .portfolios .port-item .itembox img{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    
+}
+/* ---==========================================
+                    Portfolio part end
+=======================================----- */
+/* ---==========================================
+                    Contact part start
+=======================================----- */
+#contact-part{
+    background-image: -webkit-linear-gradient(0deg,#766dff 0%,#88f3ff 100%);
+    padding: 100px 0;
+}
+#contact-part .contact-text{
+    text-align: center;
+}
+#contact-part .contact-text P{
+    font-family: 'Jost', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+#contact-part .contact-text h4{
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #fff;
+}
+#contact-part  .contact-details form .form-control {
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid #eeeeee7d;
+    float: left;
+    display: flex;
+}
+#contact-part  .contact-details .form-group{
+    display: flex;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 1.375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff0;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe80;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 0%);
+}
+.btn-primary {
+    color: black;
+    background-color: #88efff;
+    border-color: #0d6efd00;
+    margin-top: 40px;
+    border-radius: 0px;
+    padding: 10px 45px;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #88EFFF;
+    border-color: #0a58ca03;
+}
+#contact-part .contact {
+    margin-left: 150px;
+    padding: 25px 0;
+}
+#contact-part .contact h4{
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #fff;
+}
+#contact-part .contact ul li{
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 0;
+    color: #fff;
+}
+#contact-part .contact ul li a {
+    color: #fbfbfb;
+}
+/* ---==========================================
+                    Contact part end
+=======================================----- */
+/* ---==========================================
+                    Footer part start
+=======================================----- */
+footer{
+    background: black;
+}
+footer .footer-item{
+    padding: 50px;
+}
+footer .footer-item .footer-text h4{
+    font-family: 'Jost', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 30px;
+}
+footer .footer-item .footer-text p{
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    max-width: 500px;
+}
+footer .footer-item .footer-text ul li a{
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    transition: .4s;
+}
+footer .footer-item .footer-text .servis li a:hover{
+    margin-left: 20px;
+    color: #88efff;
+}
+footer .footer-item .footer-text .social li{
+    float: left;
+    margin: 10px;
+    text-align: center;
+    transition: .4s;
+}
+footer .footer-item .footer-text .social li a:hover{
+    color: #88efff;
+}
+/* ---==========================================
+                    Footer part end
+=======================================----- */
